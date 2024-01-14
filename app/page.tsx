@@ -1,7 +1,6 @@
 import { products } from "@/utils/products";
 import Container from "./components/Container";
 import Hero from "./components/Hero";
-import { truncateText } from "@/utils/helperFunc";
 import ProductCard from "./components/products/ProductCard";
 
 const Home = () => {
