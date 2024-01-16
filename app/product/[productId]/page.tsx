@@ -6,6 +6,8 @@ interface IParams{
     productId?: string
 }
 
+
+
 const Product = ({params} : {params: IParams}) => {
     return ( 
         <div className="p-8">

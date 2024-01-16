@@ -21,10 +21,12 @@ const Navbar = () => {
               Takobee
             </Link>
             <div className="hidden md:block">Search</div>
-            <div className="flex items-center gap-8 md:gap-12">
+            <div className="flex items-center gap-8 md:gap-12 ">
               <div>Cart</div>
               <div>UserMenu</div>
-              <ThemeSwitch />
+              <div className="cursor-pointer">
+                <ThemeSwitch />
+              </div>
             </div>
           </div>
         </Container>
